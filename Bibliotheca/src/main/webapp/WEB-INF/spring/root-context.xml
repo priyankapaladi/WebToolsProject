@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<bean id="categoryValidator" class="com.yusuf.spring.controller.CategoryValidator"></bean>
+	<bean id="advertValidator" class="com.yusuf.spring.controller.AdvertValidator"></bean>
+	<!-- <bean id="userDao" class="com.yusuf.spring.dao.UserDAO"></bean>-->
+	<bean id="loginDao" class="com.yusuf.spring.dao.LoginDAO"></bean>
+	<bean id="booksDao" class="com.yusuf.spring.dao.BooksDAO"></bean>
+	<bean id="documentsDao" class="com.yusuf.spring.dao.DocumentsDAO"></bean>
+	<bean id="forumDao" class="com.yusuf.spring.dao.ForumDAO"> </bean>
+	<bean id="loginModelValidator" class="com.yusuf.spring.controller.LoginModelValidator"></bean>
+	<bean id="bookValidator" class="com.yusuf.spring.controller.BookValidator"> </bean>
+	<bean id="registrationValidator" class="com.yusuf.spring.controller.RegistrationValidator"> </bean>
+	<bean id="questionValidator" class="com.yusuf.spring.controller.QuestionValidator"> </bean>
+	
+</beans>

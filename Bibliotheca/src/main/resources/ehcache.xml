@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache name="employee"   
+maxElementsInMemory="100"   
+eternal="true"/>  
